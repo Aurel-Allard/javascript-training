@@ -1,5 +1,5 @@
 .banner {
-  color: #535656;
+  color: $light-gray;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
@@ -14,7 +14,7 @@
   }
   p {
   font-size: 24px;
-  color: #535656;
+  color: $light-gray;
   opacity: 0.6;
   margin-bottom: 20px;
   }
