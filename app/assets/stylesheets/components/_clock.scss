@@ -1,0 +1,45 @@
+.clock-bgd {
+  background-color: #FFF;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  position: relative;
+}
+
+.hour-hand {
+  position: absolute;
+  top: 25%;
+  left: 24.9%;
+  transform: rotate(226deg);
+  transform-origin: 50%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.min-hand {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: rotate(226deg);
+  transform-origin: 50%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 200px;
+  height: 2px;
+  background: black;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
